@@ -3,6 +3,7 @@ import axios from 'axios';
 import '../App.css';
 import Pagination, { dataFormatter } from './Pagination';
 
+// Sample component for reference
 function TrialComponent() {
   const [posts, setPosts] = useState([]); // data to be shown
   const [currentPage, setCurrentPage] = useState(1); // page number
